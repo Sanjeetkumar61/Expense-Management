@@ -41,10 +41,10 @@ PORT=5000
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
-DB_PASSWORD=your_postgres_password
+DB_PASSWORD=mypassword
 DB_NAME=expense_management
 
-DATABASE_URL="postgresql://postgres:your_postgres_password@localhost:5432/expense_management"
+DATABASE_URL="postgresql://postgres:mypassword@localhost:5432/expense_management"
 
 JWT_SECRET="your_jwt_secret"
 JWT_EXPIRES_IN="1d"
@@ -167,6 +167,3 @@ The backend is deployed on Render.
 
 https://expense-management-backend-2war.onrender.com
 
-**Health Check:**
-
-https://expense-management-backend-2war.onrender.com/
